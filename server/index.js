@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json());
 
 // TODO: hardcode a merkle root here representing the whole nice list
+// paste the hex string in here, without the 0x prefix
 const MERKLE_ROOT = '';
 
 app.post('/gift', (req, res) => {
