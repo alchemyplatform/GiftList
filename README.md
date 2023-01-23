@@ -1,3 +1,10 @@
+1 point - briefly describe how you achieved the goals of the project (in the README.md) 
+1 point - project compiles and run 
+2 points - create a Merkle tree from the “nice” list
+3 points - generate Merkle proof from the name in the “nice” list
+3 points - verify name exists on the nice list on the server 
+
+Run the scripts to obtain the merkle root and add to the server. In the client add request body paramaters and server too. Import verify proof into server to check names on list.
 # Gift List
 
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
